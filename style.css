@@ -11,29 +11,42 @@ body {
 .navbar-nav {
     display: flex;
     list-style-type: none;
-    width: 1902px; 
-    margin: -8px;
-    padding: 20px 0px 22px 0px;
+    margin: 0;
     justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background: #D0604C;
-    gap: 85px;
+    padding: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 8vh;
+    background-color: #D0604C;
+    gap: 15px;
 }
 
 .nav-link {
     text-decoration: none;
+    display: block;
     color: #FFF;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    padding: 14px 12px;
 }
 
+img {
+    width: 300px;
+    padding-right: 10px;
+    padding-left: 15px;
+    float: left;
+}
+/* 
 .navbar-brand {
     width: 364px; 
     height: 43.262px;
     flex-shrink: 0;
-    float: left;
-}
+    
+    
+} */
 
 .headContainer {
     position: relative;
