@@ -22,3 +22,84 @@ body {
 .m-16 {
     margin: 16px;
 }
+
+.navbar-brand img {
+    width: 300px;
+}
+
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0 4px; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+
+
+img {
+    width: 75%
+}
+
+.column {
+    flex: 25%;
+    max-width: 100%;
+    
+  }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+  
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+/* @media screen and (max-width: 700px) {
+
+    nav {
+        justify-content: center;
+    }
+
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  } */
+
+@media screen and (max-width: 600px) {
+
+    h2 {
+        font-size: 20px;
+    }
+    /* nav {
+        text-align: right;
+        /* justify-content: center; 
+        align-items: center;
+    } */
+    .column {
+      flex: 100%;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    img {
+        width: 100vw;
+        /* margin-right: 0;
+        padding-right: 0; */
+    }
+}
