@@ -4,6 +4,7 @@
     line-height: normal;
 }
 
+
 body {
     background-color: #EFEFEF;
 }
@@ -32,9 +33,23 @@ table {
     justify-content: center;
     text-align: center;
     
-
 }
 
 th {
     width: 20vw;
+}
+
+label {
+    margin-top: 10px;
+
+}
+
+.mb-3 {
+    width: 50vw;
+}
+
+.btn-primary {
+    height: 38px;
+    background-color: #d0604c;
+    border-color: #d0604c;
 }
