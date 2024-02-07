@@ -39,8 +39,13 @@ body {
 
 
 img {
-    width: 75%
+    width: 75%;
+    animation-name: imageAppear;
+    animation-duration: .5s;
 }
+
+
+
 
 .column {
     flex: 25%;
@@ -52,7 +57,13 @@ img {
     margin-top: 8px;
     vertical-align: auto;
 }
-  
+   
+
+@keyframes imageAppear {
+    from {opacity: 20%;}
+    to {opacity: 100%;}
+}
+
 
 
 
